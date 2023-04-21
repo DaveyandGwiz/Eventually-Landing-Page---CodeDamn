@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>codedamn Project</title>
+    <style>
+            body {
+                background-image: url("https://cdnb.artstation.com/p/assets/images/images/028/440/969/large/alfredo-candelaresi-dawn-pok-grain.jpg?1594485744");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            @font-face {
+                font-family: 'Roboto';
+                src: local('Roboto'), local('Roboto-Regular'),
+                    url('assets/fonts/Roboto-Regular.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+                font-display: swap;
+                font-weight: 700;
+            }
+            h1 {
+                font-family: 'Roboto-700';
+                font-size: 40px;
+            }
+            p {
+                font-family: 'Roboto-400';
+                color: pink;
+                font-size: 20px;
+            }
+            input {
+                margin-top: 5px;
+                color: #1cb495;
+                border-radius: 6px;
+            }
+            .social {
+                display: flex;
+                width: 18px;
+            }
+            .footer{
+                color: rgba(255,255,255,0.5);
+                font-size: 10px;
+                position: fixed;
+                left: 0;
+                bottom: 0;
+            }
+            .socialpics {
+                display: flex;
+                flex-direction: row
+            }
+            .button {
+                background-color: #1cb495;
+                color: white;
+            }
+            input {
+                border-radius: 6px;
+            }
+            form {
+                display: flex;
+                align-items: center;
+            }
+            @media only screen
+                and (min-device-width : 320px)
+                and (max-device-width : 480px) {
+                body {
+                    margin-top: 300px;
+                }
+                h1 {
+                    color: pink;
+
+                }
+                body {
+                    background-position: center;
+                    height:100vh;
+                }
+                form {
+                    flex-direction: column;
+                }
+                .button {
+                    width: 170px;
+                }
+            }
+            @media only screen
+                and (min-device-width : 481px)
+                and (max-device-width : 768px) {
+                h1 {
+                    color: red;
+                }
+            }
+            @media only screen
+                and (min-device-width : 769px)
+                and (max-device-width : 1024px) {
+                h1 {
+                    color: crimson;
+                }
+            }
+            @media only screen
+                and (min-device-width : 1025px)
+                and (max-device-width : 1200px) {
+                h1 {
+                    color: brown;
+                }
+            }
+            @media only screen
+                and (min-device-width : 1201px) {
+                body {
+                    margin-top: 500px;
+                }
+                h1 {
+                    color: blue;
+                }
+            }
+
+        </style>
+</head>
+<body>
+<!-- start writing your code -->
+
+<!-- You can use font-awesome library to add social icons in your project -->
+<i class="fa fa-twitter"></i>
+<!-- Similarly you can add fa-instagram, fa-envelope-o (for e-mail), fa-github for the rest of icons that you need for this project. -->
+
+<!-- You can style these icons to change the hover states and the color to meet the styles given in the design-->
+<h1>Eventually</h1>
+<p>A simple template for telling the world when you'll launch
+    your next big thing. Brought to you by HTML5 UP.</p>
+<form>
+    <input placeholder="email address" type="email">
+    <input class="button" type="submit" value="Sign Up">
+</form>
+
+<div class="footer">
+    <div class="socialpics">
+        <img class="social" src="assets/icons/x" alt="Italian Trulli">
+        <img class="social" src="assets/icons/x" alt="Italian Trulli">
+        <img class="social" src="assets/icons/x" alt="Italian Trulli">
+        <img class="social" src="assets/icons/x" alt="Italian Trulli">
+    </div>
+    © Untitled. | Credits : Unsplash + HTML5 UP
+</div>
+</body>
+</html>
